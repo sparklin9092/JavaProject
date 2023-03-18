@@ -10,9 +10,9 @@ public class Case_3 {
 
 	public static void main(String[] args) {
 		String tempStr = null;
-		Optional.ofNullable(tempStr).ifPresent(s -> print(s));
+		Optional.ofNullable(tempStr).ifPresent(s -> print(s)); // 不會輸出任何結果
 		
 		String tempStr2 = "JAVA";
-		Optional.ofNullable(tempStr2).ifPresent(s -> print(s));
+		Optional.ofNullable(tempStr2).ifPresent(s -> print(s)); // 輸出 "java"
 	}
 }
